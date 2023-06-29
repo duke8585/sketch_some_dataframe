@@ -21,8 +21,8 @@ This tool is meant to bridge the gap and allow you to generate dataframe or SQL 
         2022-02-01	john	3	
     ```
 2. copy the range, including the header
-3. paste the range into the `inout.tsv` file
-4. run the script via `make generate` or `python main.py`
+3. paste the range into the `input.tsv` file
+4. run the script via `make generate` or `python main.py` **OR via running it on [repl.it](https://replit.com/@duke8585/sketchadataframe#input.tsv)**
 5. get your code pieces from either of the `output.*` files
 
 ## features
