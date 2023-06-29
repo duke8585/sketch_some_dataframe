@@ -36,3 +36,7 @@ This tool is meant to bridge the gap and allow you to generate dataframe or SQL 
 
 * if fields have non.scalar types, the script will still string-quote them
 
+## resources
+
+the repository on [github](https://github.com/duke8585/sketch_some_dataframe)
+
