@@ -82,10 +82,14 @@ def make_generation_statements(field_names, rows, nof_rows, nof_cols):
   body.append("\n")
   body.append("// import spark.implicits._")
   body.append("\n")
+  body.append("// format: off")
+  body.append("\n")
   body.append("val df = Seq")
   body.append(make_data_rows(rows, nof_rows, nof_cols, br="()", q="\""))
   body.append(".toDF")
   body.append(make_schema(field_names, nof_cols, br="()", q="\""))
+  body.append("\n")
+  body.append("// format: on")
   with open('output.sc', 'w') as out_file:
     out_file.write("".join(body))
 
